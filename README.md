@@ -1,4 +1,4 @@
-# Documentation
+# Peg Solitaire Game - Documentation
 
 ## `public class PegSolitaireGame`
 
@@ -16,7 +16,7 @@ This method is responsible for everything from displaying the opening welcome me
 
 ## `public static int readValidInt(Scanner in, String prompt, int min, int max)`
 
-This method is used to read in all inputs from the user. After printing the specified prompt, it will check whether the user�s input is in fact an integer within the specified range. If the user�s input does not represent an integer or does not fall within the required range, print an error message asking for a value within that range before giving the user another chance to enter valid input. The user should be given as many chances as they need to enter a valid integer within the specified range. See the Sample Runs to see how these error messages should be phrased, and to see how the prompts are repeated when multiple invalid inputs are entered by the user.
+This method is used to read in all inputs from the user. After printing the specified prompt, it will check whether the user's input is in fact an integer within the specified range. If the user's input does not represent an integer or does not fall within the required range, print an error message asking for a value within that range before giving the user another chance to enter valid input. The user should be given as many chances as they need to enter a valid integer within the specified range. See the Sample Runs to see how these error messages should be phrased, and to see how the prompts are repeated when multiple invalid inputs are entered by the user.
 
  * **Parameters:**
    * `in` — - user input from standard in is ready through this.
@@ -42,7 +42,7 @@ This method prints out the contents of the specified board using @s to represent
 
 ## `public static int[] readValidMove(Scanner in, char[][] board)`
 
-This method is used to read in and validate each part of a user�s move choice: the row and column that they wish to move a peg from, and the direction that they would like to move/jump that peg in. When the player�s row, column, and direction selection does not represent a valid move, your program should report that their choice does not constitute a legal move before giving them another chance to enter a different move. They should be given as many chances as necessary to enter a legal move. The array of three integers that this method returns will contain: the user�s choice of column as the first integer, their choice of row as the second integer, and their choice of direction as the third.
+This method is used to read in and validate each part of a user's move choice: the row and column that they wish to move a peg from, and the direction that they would like to move/jump that peg in. When the player's row, column, and direction selection does not represent a valid move, your program should report that their choice does not constitute a legal move before giving them another chance to enter a different move. They should be given as many chances as necessary to enter a legal move. The array of three integers that this method returns will contain: the user's choice of column as the first integer, their choice of row as the second integer, and their choice of direction as the third.
 
  * **Parameters:**
    * `in` — - user input from standard in is ready through this.
